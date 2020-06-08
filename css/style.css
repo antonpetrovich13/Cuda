@@ -61,591 +61,115 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 /*--------------------*/
-header a {
-  height: 32px;
-  color: #ffffff;
-  font-family: "Titillium Web";
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase; }
-
-div.services div.titles {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.48px; }
-
-div.services div.text {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.32px;
-  line-height: 24px; }
-
 body {
-  max-width: 1440px;
-  margin: 0px auto;
-  height: 6160px;
-  font-family: "Titillium Web"; }
+  font-family: Titillium Web; }
 
-header {
-  height: 596px;
-  background-color: #87509c; }
-  header img {
-    padding: 56px 0px 0px 212px;
-    display: inline; }
-  header div {
-    display: inline;
-    position: relative;
-    top: 62px;
-    left: 480px; }
-  header a:nth-child(1) {
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  height: 1550px; }
+
+.main {
+  background-color: #87509c;
+  padding: 57px 0px 0 0px;
+  min-height: 100%; }
+  .main__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .main__link {
     display: inline-block;
-    height: 32px;
-    width: 77px;
-    padding: 6px 16px; }
-  header a:nth-child(1):hover {
-    background-color: #643a79;
-    border-radius: 3px; }
-  header a:nth-child(2) {
-    padding: 0px 0px 0px 27px; }
-  header a:nth-child(3) {
-    padding: 0px 0px 0px 43px; }
-  header a:nth-child(4) {
-    padding: 0px 0px 0px 43px; }
-  header a:nth-child(5) {
-    padding: 0px 0px 0px 43px; }
-  header h1 {
-    max-width: 906px;
-    height: 88px;
-    color: #f7f3ea;
-    font-family: "Titillium Web";
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 48.82px;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 0 40px; }
+    .main__link_hover {
+      text-align: center;
+      padding: 7px 0;
+      border-radius: 3px;
+      width: 77px;
+      margin: 0 -15px 0 0; }
+      .main__link_hover:hover {
+        background-color: #643a79; }
+  .main__title {
+    padding: 147px 0 0 0;
     text-align: center;
+    font-size: 42.2px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f7f3ea; }
+  .main__btn {
+    width: 293px;
     position: relative;
-    top: 135px;
-    left: 260px; }
-  header a.button {
+    content: '';
+    top: 57px;
+    left: 363px; }
+    .main__btn_org {
+      -webkit-box-shadow: 3px 3px 0 0;
+      box-shadow: 3px 3px 0 0;
+      background-color: #eb7d4b; }
+
+.container {
+  max-width: 1034px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.button {
+  border-radius: 3px; }
+  .button:active {
+    margin: 3px 0 0 0; }
+  .button a {
     display: block;
     width: 293px;
     height: 70px;
-    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26.19px;
-    text-transform: uppercase;
-    letter-spacing: 0.27px;
-    text-align: center;
-    position: relative;
-    top: 197px;
-    left: 575px;
-    background-color: #eb7d4b;
-    padding: 22px;
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 4px 0px #c86a40;
-    box-shadow: 0px 4px 0px #c86a40; }
-  header a.button:active {
-    margin: 5px 0px; }
+    letter-spacing: 0.02em;
+    color: #fff; }
 
-div.services {
-  height: 747px;
-  background-color: #17c2a4; }
-  div.services h2 {
-    display: inline-block;
-    height: 29px;
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 29.91px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 119px 0px 0px 483px; }
-  div.services img.line {
-    margin: 21px 0px 0px 677px; }
-  div.services p {
-    width: 603px;
-    height: 45px;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.36px;
-    text-align: center;
-    margin: 16px 418px 0px 418px; }
-  div.services div.icons {
-    margin: 85px 255px 0px 246px; }
-    div.services div.icons img:nth-child(2) {
-      padding: 0px 0px 0px 171px; }
-    div.services div.icons img:nth-child(3) {
-      padding: 0px 0px 0px 145px; }
-    div.services div.icons img:nth-child(4) {
-      padding: 0px 0px 0px 148px; }
-  div.services div.titles {
-    margin: 55px 0px 0px 240px; }
-    div.services div.titles span:nth-child(2) {
-      margin: 0px 0px 0px 175px; }
-    div.services div.titles span:nth-child(3) {
-      margin: 0px 0px 0px 150px; }
-    div.services div.titles span:nth-child(4) {
-      margin: 0px 0px 0px 100px; }
-  div.services div.text {
-    margin: 25px 0px 0px 200px; }
-    div.services div.text span {
-      display: inline-block;
-      text-align: center; }
-    div.services div.text span:nth-child(1) {
-      max-width: 205px;
-      height: 70px; }
-    div.services div.text span:nth-child(2) {
-      max-width: 180px;
-      height: 70px;
-      margin: 0px 0px 0px 85px; }
-    div.services div.text span:nth-child(3) {
-      max-width: 200px;
-      height: 70px;
-      margin: 0px 0px 0px 85px; }
-    div.services div.text span:nth-child(4) {
-      max-width: 195px;
-      height: 70px;
-      margin: 0px 0px 0px 78px; }
-
-div.team {
-  height: 914px;
-  background-color: #e7f1f8; }
-  div.team h2 {
-    display: inline-block;
-    color: #3c4761;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 30.87px;
-    text-transform: uppercase;
-    letter-spacing: 3.5px;
-    margin: 119px 0px 0px 429px; }
-  div.team img.line_2 {
-    margin: 21px 0px 0px 677px; }
-  div.team p {
-    color: #3c4761;
-    font-size: 19px;
-    line-height: 26.84px;
-    letter-spacing: 0.36px;
-    margin: 20px 0px 0px 398px;
-    letter-spacing: 0.05px; }
-  div.team div.photo {
-    margin: 74px 0px 0px 200px; }
-    div.team div.photo img:nth-child(2) {
-      padding: 0px 0px 0px 77px; }
-    div.team div.photo img:nth-child(3) {
-      padding: 0px 0px 0px 77px; }
-    div.team div.photo img:nth-child(4) {
-      padding: 0px 0px 0px 77px; }
-  div.team div.names {
-    color: #27283d;
+.footer {
+  background-color: #344b8e; }
+  .footer__body {
+    max-width: 940px;
+    margin: 0 auto; }
+  .footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 114px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer__list a {
+    display: inline-block; }
+  .footer__link {
     font-size: 24px;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.48px;
-    margin: 40px 0px 0px 205px; }
-    div.team div.names span:nth-child(2) {
-      margin: 0px 0px 0px 106px; }
-    div.team div.names span:nth-child(3) {
-      margin: 0px 0px 0px 130px; }
-    div.team div.names span:nth-child(4) {
-      margin: 0px 0px 0px 120px; }
-  div.team div.specialisation {
-    color: #30bae7;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.32px;
-    margin: 12px 0px 0px 215px; }
-    div.team div.specialisation span:nth-child(2) {
-      margin: 0px 0px 0px 155px; }
-    div.team div.specialisation span:nth-child(3) {
-      margin: 0px 0px 0px 165px; }
-    div.team div.specialisation span:nth-child(4) {
-      margin: 0px 0px 0px 175px; }
-  div.team div.description {
-    color: #3c4761;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    margin: 22px 0px 0px 202px; }
-    div.team div.description span {
-      display: inline-block;
-      text-align: center; }
-    div.team div.description span:nth-child(1) {
-      max-width: 200px;
-      height: 115px; }
-    div.team div.description span:nth-child(2) {
-      max-width: 200px;
-      height: 115px;
-      margin: 0px 0px 0px 85px; }
-    div.team div.description span:nth-child(3) {
-      max-width: 200px;
-      height: 115px;
-      margin: 0px 0px 0px 80px; }
-    div.team div.description span:nth-child(4) {
-      max-width: 200px;
-      height: 115px;
-      margin: 0px 0px 0px 70px; }
-  div.team div.communication {
-    margin: 29px 0px 0px 200px; }
-    div.team div.communication img {
-      padding: 0px 0px 0px 12px; }
-    div.team div.communication img:nth-child(5) {
-      margin: 0px 0px 0px 130px; }
-    div.team div.communication img:nth-child(8) {
-      margin: 0px 0px 0px 115px; }
-    div.team div.communication img:nth-child(12) {
-      margin: 0px 0px 0px 110px; }
-
-div.skills {
-  height: 540px;
-  background-color: #ffffff; }
-  div.skills h2 {
-    color: #3c4761;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 29.91px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 117px 0px 0px 557px; }
-  div.skills img.problem {
-    margin: 21px 0px 0px 678px; }
-  div.skills p {
-    max-width: 580px;
-    height: 50px;
-    color: #3c4761;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.36px;
-    text-align: center;
-    margin: 18px 0px 0px 436px; }
-  div.skills div.percents {
-    margin: 84px 0px 0px 220px; }
-    div.skills div.percents img:nth-child(2) {
-      padding: 0px 0px 0px 117px; }
-    div.skills div.percents img:nth-child(3) {
-      padding: 0px 0px 0px 117px; }
-    div.skills div.percents img:nth-child(4) {
-      padding: 0px 0px 0px 117px; }
-  div.skills div.skill {
-    color: #3c4761;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.48px;
-    margin: 31px 0px 0px 228px; }
-    div.skills div.skill span:nth-child(2) {
-      margin: 0px 0px 0px 140px; }
-    div.skills div.skill span:nth-child(3) {
-      margin: 0px 0px 0px 120px; }
-    div.skills div.skill span:nth-child(4) {
-      margin: 0px 0px 0px 140px; }
-
-div.portfolio {
-  background-color: #ffdd99;
-  height: 1423px; }
-  div.portfolio h2 {
-    color: #393939;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 29.91px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 120px 0px 0px 555px; }
-  div.portfolio img.line_portfolio {
-    margin: 21px 0px 0px 677px; }
-  div.portfolio p {
-    width: 520px;
-    height: 50px;
-    color: #393939;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.36px;
-    text-align: center;
-    margin: 20px 0px 0px 463px; }
-  div.portfolio div.categories {
-    width: 500px;
-    height: 50px;
-    margin: 38px 0px 0px 532px; }
-    div.portfolio div.categories a {
-      display: inline-block;
-      width: 86px;
-      height: 40px;
-      background-color: #ebcb8d;
-      color: #393939;
-      font-size: 18px;
-      line-height: 19.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.36px;
-      border-radius: 3px; }
-    div.portfolio div.categories a:active {
-      background-color: #ffffff; }
-    div.portfolio div.categories a:nth-child(1) {
-      padding: 10px 29px; }
-    div.portfolio div.categories a:nth-child(2) {
-      padding: 11px 26px;
-      margin: 0px 0px 0px 6px; }
-    div.portfolio div.categories a:nth-child(3) {
-      padding: 10px 22px;
-      margin: 0px 0px 0px 5px; }
-    div.portfolio div.categories a:nth-child(4) {
-      padding: 10px 17px;
-      margin: 0px 0px 0px 7px; }
-  div.portfolio div.computers_1 {
-    margin: 52px 0px 0px 172px; }
-    div.portfolio div.computers_1 img:nth-child(2) {
-      margin: 0px 0px 0px 20px; }
-  div.portfolio div.computers_2 {
-    margin: 64px 0px 0px 172px; }
-    div.portfolio div.computers_2 img:nth-child(2) {
-      margin: 0px 0px 0px 20px; }
-  div.portfolio a.button {
-    display: block;
-    width: 293px;
-    height: 65px;
-    color: #ffffff;
+    line-height: 29px;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26.19px;
-    text-transform: uppercase;
-    letter-spacing: 0.27px;
-    background-color: #17c2a4;
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 5px #14a58b;
-    box-shadow: 0px 5px #14a58b;
-    padding: 22px 56px;
-    position: relative;
-    top: 83px;
-    left: 574px; }
-  div.portfolio a.button:active {
-    margin: 5px 0px; }
-
-div.testimonials {
-  height: 895px;
-  background-color: #d74680; }
-  div.testimonials h2 {
+    letter-spacing: 0.02em;
     color: #ffffff;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 29.91px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 119px 0px 0px 417px; }
-  div.testimonials img.line_testimonials {
-    margin: 21px 0px 0px 677px; }
-  div.testimonials p.love {
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.36px;
-    margin: 18px 0px 0px 647px; }
-  div.testimonials div.reviewsline_1 {
-    margin: 67px 0px 0px 171px; }
-    div.testimonials div.reviewsline_1 div.reviews_1 {
-      display: inline-block;
-      width: 550px;
-      height: 190px; }
-      div.testimonials div.reviewsline_1 div.reviews_1 .reviews_1__block {
-        display: inline-block;
-        margin: 5px 0px 0px 47px; }
-        div.testimonials div.reviewsline_1 div.reviews_1 .reviews_1__block span {
-          display: inline-block;
-          width: 350px;
-          height: 85px;
-          color: #ffffff;
-          font-style: italic;
-          font-size: 21px;
-          line-height: 31.2px;
-          letter-spacing: 0.35px; }
-        div.testimonials div.reviewsline_1 div.reviews_1 .reviews_1__block .name {
-          color: #ffffff;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 26px;
-          text-transform: uppercase;
-          letter-spacing: 0.48px;
-          margin: 28px 0px 0px 0px; }
-        div.testimonials div.reviewsline_1 div.reviews_1 .reviews_1__block .skill {
-          color: #ffdd99;
-          font-size: 18px;
-          line-height: 26px;
-          letter-spacing: 0.36px; }
-    div.testimonials div.reviewsline_1 div.reviews_2 {
-      display: inline-block;
-      max-width: 550px;
-      height: 190px;
-      margin: 0px 0px 0px 40px; }
-      div.testimonials div.reviewsline_1 div.reviews_2 .reviews_2__block {
-        display: inline-block;
-        margin: 5px 0px 0px 42px; }
-        div.testimonials div.reviewsline_1 div.reviews_2 .reviews_2__block span {
-          display: inline-block;
-          width: 370px;
-          height: 85px;
-          color: #ffffff;
-          font-style: italic;
-          font-size: 21px;
-          line-height: 31.2px;
-          letter-spacing: 0.35px; }
-        div.testimonials div.reviewsline_1 div.reviews_2 .reviews_2__block .name_2 {
-          color: #ffffff;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 26px;
-          text-transform: uppercase;
-          letter-spacing: 0.48px;
-          margin: 33px 0px 0px 0px; }
-        div.testimonials div.reviewsline_1 div.reviews_2 .reviews_2__block .skill_2 {
-          color: #ffdd99;
-          font-size: 18px;
-          line-height: 26px;
-          letter-spacing: 0.36px; }
-  div.testimonials div.reviewsline_2 {
-    margin: 120px 0px 0px 171px; }
-    div.testimonials div.reviewsline_2 div.reviews_3 {
-      display: inline-block;
-      width: 550px;
-      height: 190px; }
-      div.testimonials div.reviewsline_2 div.reviews_3 .reviews_3__block {
-        display: inline-block;
-        margin: 0px 0px 0px 47px; }
-        div.testimonials div.reviewsline_2 div.reviews_3 .reviews_3__block span {
-          display: inline-block;
-          width: 380px;
-          height: 85px;
-          color: #ffffff;
-          font-style: italic;
-          font-size: 21px;
-          line-height: 31.2px;
-          letter-spacing: 0.35px; }
-        div.testimonials div.reviewsline_2 div.reviews_3 .reviews_3__block .name_3 {
-          color: #ffffff;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 26px;
-          text-transform: uppercase;
-          letter-spacing: 0.48px;
-          margin: 33px 0px 0px 0px; }
-        div.testimonials div.reviewsline_2 div.reviews_3 .reviews_3__block .skill_3 {
-          color: #ffdd99;
-          font-size: 18px;
-          line-height: 26px;
-          letter-spacing: 0.36px; }
-    div.testimonials div.reviewsline_2 div.reviews_4 {
-      display: inline-block;
-      max-width: 550px;
-      height: 190px;
-      margin: 0px 0px 0px 40px; }
-      div.testimonials div.reviewsline_2 div.reviews_4 .reviews_4__block {
-        display: inline-block;
-        margin: 0px 0px 0px 35px; }
-        div.testimonials div.reviewsline_2 div.reviews_4 .reviews_4__block span {
-          display: inline-block;
-          width: 370px;
-          height: 85px;
-          color: #ffffff;
-          font-style: italic;
-          font-size: 21px;
-          line-height: 31.2px;
-          letter-spacing: 0.35px; }
-        div.testimonials div.reviewsline_2 div.reviews_4 .reviews_4__block .name_4 {
-          color: #ffffff;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 26px;
-          text-transform: uppercase;
-          letter-spacing: 0.48px;
-          margin: 33px 0px 0px 0px; }
-        div.testimonials div.reviewsline_2 div.reviews_4 .reviews_4__block .skill_4 {
-          color: #ffdd99;
-          font-size: 18px;
-          line-height: 26px;
-          letter-spacing: 0.36px; }
-
-div.get_in_touch {
-  height: 819px;
-  background-color: #3c5499; }
-  div.get_in_touch h2 {
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 29.91px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 120px 0px 0px 577px; }
-  div.get_in_touch img {
-    margin: 21px 0px 0px 677px; }
-  div.get_in_touch p.get_in_touch {
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.36px;
-    margin: 18px 0px 0px 329px; }
-  div.get_in_touch form {
-    max-width: 900px;
-    height: 285px;
-    margin: 73px 0px 0px 290px; }
-    div.get_in_touch form input {
-      width: 414px;
-      height: 56px;
-      background-color: #273a71;
-      color: #ffffff;
-      font-size: 18px;
-      line-height: 18px;
-      padding: 0px 0px 0px 25px;
-      border-radius: 3px; }
-    div.get_in_touch form input:nth-child(2) {
-      margin: 0px 0px 0px 29px; }
-    div.get_in_touch form textarea {
-      background-color: #273a71;
-      width: 860px;
-      height: 200px;
-      margin: 25px 0px 0px 0px;
-      color: #ffffff;
-      font-size: 18px;
-      line-height: 18px;
-      padding: 24px 0px 0px 25px;
-      border-radius: 3px; }
-    div.get_in_touch form button {
-      width: 295px;
-      height: 65px;
-      color: #ffffff;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 26.19px;
-      text-transform: uppercase;
-      letter-spacing: 0.27px;
-      background-color: #30bae7;
-      border-radius: 3px;
-      -webkit-box-shadow: 0px 5px #299ec4;
-      box-shadow: 0px 5px #299ec4;
-      position: relative;
-      top: 59px;
-      left: 285px; }
-    div.get_in_touch form button:active {
-      margin: 5px 0px; }
-
-footer {
-  max-width: 1440px;
-  height: 112px;
-  background-color: #344b8e;
-  padding: 44px 0px 0px 195px; }
-  footer a {
-    display: inline-block;
-    color: #ffffff;
-    font-size: 24px;
-    line-height: 29.91px;
-    letter-spacing: 0.48px; }
-  footer a {
-    margin: 0px 0px 0px 55px; }
-  footer a:active {
-    color: #30bae7; }
+    padding: 0 0 0 40px; }
+    .footer__link:first-child {
+      padding: 0 40px 0 0px; }
+    .footer__link:hover {
+      color: #30bae7; }
