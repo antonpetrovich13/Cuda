@@ -215,6 +215,67 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff; }
 
+.team {
+  background-color: #e7f1f8; }
+  .team__title {
+    padding: 119px 0 0 0;
+    color: #3c4761;
+    text-align: center; }
+  .team__subtitle {
+    color: #3c4761;
+    text-align: center; }
+  .team__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .team__column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%; }
+
+.item__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.item__image {
+  padding: 78px 0 0 0; }
+
+.item__name {
+  padding: 40px 0 0 0;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #27283d; }
+
+.item__tech {
+  padding: 15px 0 0 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #30bae7; }
+
+.item__text {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 26px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #3c4761; }
+
+.item__link {
+  padding: 0 6px; }
+
 .footer {
   background-color: #344b8e; }
   .footer__body {
