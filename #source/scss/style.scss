@@ -164,6 +164,79 @@ body{
 	}
 }
 
+//TEAM
+
+.team {
+	background-color: #e7f1f8;
+	&__title {
+		padding: 119px 0 0 0;
+		color: #3c4761;
+		text-align: center;
+	}
+	&__subtitle {
+		color: #3c4761;
+		text-align: center;
+	}
+	&__row {
+		display: flex;
+	}
+	&__column {
+		flex: 0 1 25%;
+	}
+	&__item {}
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
+.item {
+	&__row {
+}
+	&__body{
+		display: flex;
+		flex-direction: column;
+	}
+	&__image {
+		padding: 78px 0 0 0;
+	}
+	&__name {
+		padding: 40px 0 0 0;
+		font-size: 24px;
+		line-height: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+		color: #27283d;
+	}
+	&__tech {
+		padding: 15px 0 0 0;
+		font-size: 16px;
+		line-height: 18px;
+		font-weight: 400;
+		letter-spacing: 0.02em;
+		color: #30bae7;
+	}
+	&__text {
+		flex: 1 1 auto;
+		padding: 26px 0 0 0;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 300;
+		letter-spacing: 0.02em;
+		color: #3c4761;
+	}
+	&__links {
+	}
+	&__link{
+		padding: 0 6px;
+	}
+}
+
+
+
+
 
 //FOOTER
 
