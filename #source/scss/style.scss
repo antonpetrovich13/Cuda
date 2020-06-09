@@ -98,15 +98,20 @@ body{
 
 .servicies {
 	background-color: #17c2a4;
-	height: 747px;
+	padding: 120px 0;
+	min-height: 100%;
 	&__title {
 		text-align: center;
-		padding: 119px 0 0 0 ;
 	}
 	&__subtitle {}
 	&__row {
 		display: flex;
 	}
+@media (max-width: 1171px) {
+	&__row{
+		flex-direction: column;
+	}
+}
 	&__column {
 		flex: 0 1 33.333%;
 	}
