@@ -114,14 +114,8 @@ body {
     font-weight: 700;
     color: #f7f3ea; }
   .main__btn {
-    width: 293px;
-    position: relative;
-    content: '';
-    top: 57px;
-    left: 363px; }
+    max-width: 293px; }
     .main__btn_org {
-      -webkit-box-shadow: 3px 3px 0 0;
-      box-shadow: 3px 3px 0 0;
       background-color: #eb7d4b; }
 
 .container {
@@ -130,7 +124,13 @@ body {
   padding: 0 15px; }
 
 .button {
-  border-radius: 3px; }
+  border-radius: 3px;
+  position: relative;
+  content: '';
+  top: 57px;
+  left: 363px;
+  -webkit-box-shadow: 3px 3px 0 0;
+  box-shadow: 3px 3px 0 0; }
   .button:active {
     margin: 3px 0 0 0; }
   .button a {
@@ -361,6 +361,72 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.02em;
     color: #3c4761; }
+
+.portfolio {
+  background-color: #ffdd99;
+  padding: 120px 0; }
+  .portfolio__title {
+    text-align: center;
+    color: #393939; }
+  .portfolio__subtitle {
+    max-width: 520px;
+    margin: 0 auto;
+    color: #393939; }
+  .portfolio__links {
+    padding: 42px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .portfolio__row {
+    text-align: center; }
+  .portfolio__item {
+    padding: 62px 0 0 0; }
+  .portfolio__text-link {
+    padding: 32px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em; }
+    .portfolio__text-link a {
+      color: #393939; }
+  .portfolio__btn {
+    background-color: #17c2a4;
+    max-width: 293px; }
+
+.links__row {
+  margin: 0 -10px; }
+
+.links__column {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%; }
+
+.links__text {
+  margin: 0 5px;
+  display: inline-block;
+  padding: 11px 0;
+  width: 84px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #393939; }
+  .links__text:hover {
+    background-color: #ccc2b3; }
 
 .footer {
   background-color: #344b8e; }
