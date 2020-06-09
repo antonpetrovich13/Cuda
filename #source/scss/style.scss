@@ -168,22 +168,27 @@ body{
 
 .team {
 	background-color: #e7f1f8;
+	height: 940px;
 	&__title {
-		padding: 119px 0 0 0;
-		color: #3c4761;
+		padding: 119px 0 0 0 ;
 		text-align: center;
+		color: #3c4761;
 	}
 	&__subtitle {
 		color: #3c4761;
-		text-align: center;
 	}
 	&__row {
 		display: flex;
+		margin: 0 -40px;
 	}
 	&__column {
 		flex: 0 1 25%;
+		display: flex;
+		padding: 0 40px;
 	}
-	&__item {}
+	&__card {
+		display: flex;
+	}
 }
 .container {
 }
@@ -191,12 +196,12 @@ body{
 }
 .subtitle {
 }
-.item {
+.card {
 	&__row {
-}
-	&__body{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	&__image {
 		padding: 78px 0 0 0;
@@ -214,13 +219,14 @@ body{
 		padding: 15px 0 0 0;
 		font-size: 16px;
 		line-height: 18px;
-		font-weight: 400;
 		letter-spacing: 0.02em;
 		color: #30bae7;
 	}
 	&__text {
 		flex: 1 1 auto;
-		padding: 26px 0 0 0;
+		padding: 26px 0 0 0 ;
+		max-width: 180px;
+		text-align: center;
 		font-size: 16px;
 		line-height: 24px;
 		font-weight: 300;
@@ -228,11 +234,14 @@ body{
 		color: #3c4761;
 	}
 	&__links {
+		padding: 29px 0 0 0;
 	}
-	&__link{
-		padding: 0 6px;
+	&__link {
+		padding: 0 5.5px;
+
 	}
 }
+
 
 
 
