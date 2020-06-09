@@ -11,6 +11,9 @@ body{
 .wrapper {
 	display: flex;
 	flex-direction: column;
+
+	min-width: 100%;
+	overflow: hidden;
 }
 .content {
 	flex: 1 1 auto;
@@ -168,9 +171,9 @@ body{
 
 .team {
 	background-color: #e7f1f8;
-	height: 940px;
+	min-height: 100%;
+	padding: 120px 0;
 	&__title {
-		padding: 119px 0 0 0 ;
 		text-align: center;
 		color: #3c4761;
 	}
@@ -181,6 +184,12 @@ body{
 		display: flex;
 		margin: 0 -40px;
 	}
+@media (max-width: 1171px){
+	&__row{
+		flex-direction: column;
+		align-items: center;
+	}
+}
 	&__column {
 		flex: 0 1 25%;
 		display: flex;
@@ -225,7 +234,6 @@ body{
 	&__text {
 		flex: 1 1 auto;
 		padding: 26px 0 0 0 ;
-		max-width: 180px;
 		text-align: center;
 		font-size: 16px;
 		line-height: 24px;
@@ -233,6 +241,11 @@ body{
 		letter-spacing: 0.02em;
 		color: #3c4761;
 	}
+@media (max-width: 1171px){
+	&__text{
+		max-width: 300px;
+	}
+}
 	&__links {
 		padding: 29px 0 0 0;
 	}
