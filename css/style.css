@@ -154,17 +154,21 @@ body {
   .servicies__row {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
-  @media (max-width: 1171px) {
-    .servicies__row {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .servicies__column {
     -webkit-box-flex: 0;
-    -ms-flex: 0 1 33.333%;
-    flex: 0 1 33.333%; }
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%; }
+  @media (max-width: 1171px) {
+    .servicies__column {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+      flex: 0 1 50%; } }
   .servicies__item {
     padding: 78px 0 0 0; }
 
@@ -223,6 +227,10 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff; }
 
+@media (max-width: 1171px) {
+  .item__subtitle {
+    max-width: 300px; } }
+
 .team {
   background-color: #e7f1f8;
   min-height: 100%;
@@ -235,8 +243,7 @@ body {
   .team__row {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin: 0 -40px; }
+    display: flex; }
   @media (max-width: 1171px) {
     .team__row {
       -webkit-box-orient: vertical;
@@ -252,8 +259,7 @@ body {
     flex: 0 1 25%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    padding: 0 40px; }
+    display: flex; }
   .team__card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -314,6 +320,47 @@ body {
 
 .card__link {
   padding: 0 5.5px; }
+
+.skills {
+  padding: 120px 0;
+  min-height: 100%; }
+  .skills__title {
+    color: #3c4761;
+    text-align: center; }
+  .skills__subtitle {
+    color: #3c4761;
+    max-width: 579px;
+    margin: 0 auto; }
+  .skills__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .skills__column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%; }
+  @media (max-width: 1171px) {
+    .skills__column {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+      flex: 0 1 50%; } }
+  .skills__image {
+    text-align: center;
+    padding: 84px 0 0 0; }
+  .skills__tech {
+    padding: 32px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #3c4761; }
 
 .footer {
   background-color: #344b8e; }
