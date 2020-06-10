@@ -448,6 +448,86 @@ body{
 	}
 }
 
+//TOUCH
+
+.touch {
+	background-color: #3c5499;
+	padding: 120px 0;
+	min-height: 819px;
+	&__box{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title {
+		text-align: center;
+	}
+	&__subtitle {
+	}
+	&__form {
+		max-width: 870px;
+		margin: 0 auto;
+		padding: 76px 0 0 0;
+		text-align: center;
+	}
+	&__name {
+		margin: 0 16px 0 0 ;
+		padding: 0 25px;
+		width: 414px;
+		height: 56px;
+		background-color: #273a71;
+		font-size: 18px;
+		line-height: 18px;
+		color: #ffffff;
+		border-radius: 3px;
+	}
+	&__e-mail {
+		margin:0 0 0 16px;
+		padding: 0 25px;
+		width: 414px;
+		height: 56px;
+		background-color: #273a71;
+		font-size: 18px;
+		line-height: 18px;
+		color: #ffffff;
+		border-radius: 3px;
+	}
+	&__text {
+		display: block;
+		margin: 27px 0 0 0;
+		padding: 24px 0 0 25px;
+		min-width: 100%;
+		min-height: 200px;
+		background-color: #273a71;
+		font-size: 18px;
+		line-height: 18px;
+		color: #ffffff;
+		border-radius: 3px;
+	}
+	&__btn {
+
+		width: 293px;
+		height: 70px;
+		background-color: #30bae7;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+		color: #fff;
+		box-shadow: 3px 3px 0 0 #000;
+		position: relative;
+		top: 87px;
+	}
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
+.button {
+}
+
 
 //FOOTER
 
