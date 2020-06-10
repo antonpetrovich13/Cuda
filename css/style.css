@@ -439,6 +439,63 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
+.comments {
+  background-color: #d74680;
+  min-height: 100%;
+  padding: 120px 0; }
+  .comments__body {
+    padding: 0 15px;
+    margin: -87px 0 0 0; }
+  .comments__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -59px; }
+  .comments__column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    padding: 158px 59px 0 59px; }
+  .comments__page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.page__body {
+  margin: 0 0 0 48px; }
+
+.page__text {
+  max-width: 350px;
+  font-size: 21px;
+  line-height: 31px;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #ffffff; }
+
+.page__name {
+  padding: 28px 0 0 0;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #ffffff; }
+
+.page__tech {
+  padding: 9px 0 0 0;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #ffdd99; }
+
 .footer {
   background-color: #344b8e; }
   .footer__body {
