@@ -194,15 +194,13 @@ body{
 	}
 	&__row {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 -34px;
 	}
-@media (max-width: 1171px){
-	&__row{
-		flex-direction: column;
-		align-items: center;
-	}
-}
 	&__column {
 		flex: 0 1 25%;
+		padding: 0 34px;
 		display: flex;
 	}
 	&__card {
@@ -309,8 +307,8 @@ body{
 
 .portfolio {
 	background-color: #ffdd99;
-	min-height: 1450px;
 	padding: 120px 0;
+	min-height: 1423px;
 	&__title {
 		text-align: center;
 		color: #393939;
@@ -518,14 +516,6 @@ body{
 		position: relative;
 		top: 87px;
 	}
-}
-.container {
-}
-.title {
-}
-.subtitle {
-}
-.button {
 }
 
 
