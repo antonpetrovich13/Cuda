@@ -384,6 +384,71 @@ body{
 	align-items: center;
 }
 
+//COMMENTS
+
+.comments {
+	background-color: #d74680;
+	min-height: 100%;
+	padding: 120px 0;
+	&__title {}
+	&__subtitle {}
+	&__body {
+		padding: 0 15px;
+		margin: -87px 0 0 0;
+	}
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 0 -59px;
+	}
+	&__column {
+		flex: 0 1 50%;
+		padding: 158px 59px 0 59px;
+	}
+	&__page {
+		display: flex;
+	}
+}
+.container-1 {
+}
+.title {
+}
+.subtitle {
+}
+.page {
+	&__image {}
+	&__body {
+		margin: 0 0 0 48px;
+	}
+	&__text {
+		max-width: 350px;
+		font-size: 21px;
+		line-height: 31px;
+		font-style: italic;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+	}
+	&__name {
+		padding: 28px 0 0 0;
+		font-size: 24px;
+		line-height: 26px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+	}
+	&__tech{
+		padding: 9px 0 0 0;
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: 0.02em;
+		color: #ffdd99;
+	}
+}
+
+
 //FOOTER
 
 .footer {
