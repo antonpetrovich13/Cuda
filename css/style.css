@@ -496,6 +496,73 @@ body {
   letter-spacing: 0.02em;
   color: #ffdd99; }
 
+.touch {
+  background-color: #3c5499;
+  padding: 120px 0;
+  min-height: 819px; }
+  .touch__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .touch__title {
+    text-align: center; }
+  .touch__form {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 76px 0 0 0;
+    text-align: center; }
+  .touch__name {
+    margin: 0 16px 0 0;
+    padding: 0 25px;
+    width: 414px;
+    height: 56px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    border-radius: 3px; }
+  .touch__e-mail {
+    margin: 0 0 0 16px;
+    padding: 0 25px;
+    width: 414px;
+    height: 56px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    border-radius: 3px; }
+  .touch__text {
+    display: block;
+    margin: 27px 0 0 0;
+    padding: 24px 0 0 25px;
+    min-width: 100%;
+    min-height: 200px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    border-radius: 3px; }
+  .touch__btn {
+    width: 293px;
+    height: 70px;
+    background-color: #30bae7;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #fff;
+    -webkit-box-shadow: 3px 3px 0 0 #000;
+    box-shadow: 3px 3px 0 0 #000;
+    position: relative;
+    top: 87px; }
+
 .footer {
   background-color: #344b8e; }
   .footer__body {
