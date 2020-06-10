@@ -243,20 +243,18 @@ body {
   .team__row {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
-  @media (max-width: 1171px) {
-    .team__row {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; } }
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -34px; }
   .team__column {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 25%;
     flex: 0 1 25%;
+    padding: 0 34px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -364,8 +362,8 @@ body {
 
 .portfolio {
   background-color: #ffdd99;
-  min-height: 1450px;
-  padding: 120px 0; }
+  padding: 120px 0;
+  min-height: 1423px; }
   .portfolio__title {
     text-align: center;
     color: #393939; }
